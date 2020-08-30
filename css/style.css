@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*thin logo font*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+/*weighted logo font*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+/*code*/
+html, body {
+    background: linear-gradient(#63B3ED, #BEE3F8);
+    font-family: 'Archivo', sans-serif;
+}
+.container {
+    max-width: 500px;
+    height: 900px;
+    background-color: #F7FAFC;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 55px;
+    -webkit-box-shadow: 5px 5px 16px 5px rgba(49,151,149,0.47); 
+    box-shadow: 5px 5px 16px 5px rgba(49,151,149,0.47);
+}
+header h1 {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: lowercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+span {
+    color: #81E6D9;
+    font-family: 'Dosis', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    padding: 50px 25px;
+    margin: 20px 10px 0 10px;
+}
+
+.navbar .date .today {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.navbar .date .current-date {
+    color: gray;
+    font-size: 15px;
+}
+
+.input-data {
+    padding: 0 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 30px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #81E6D9;
+    font-size: 15px;
+}
+  
+
+textarea {
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+.add-btn {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: #4FD1C5;
+    border: 1px solid #4FD1C5;
+    margin-left: 70px;
+}
+
+.todos-container {
+    display: flex;
+    margin: 0 10px;
+}
+
+.edit-btn, .remove-btn {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+}
+
+.edit-btn {
+    margin-left: 50px;
+    background-color: #4FD1C5;
+    border: 1px solid #4FD1C5;
+}
+
+.remove-btn {
+    margin-left: 20px;
+    background-color: red;
+    border: 1px solid red;
+}

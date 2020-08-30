@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo App - JS</title>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>Tu<span>Du</span></h1>
+        </header>
+
+        <div class="navbar">
+            <div class="date">
+                <h2 class="today">Today</h2>
+                <p class="current-date"></p>
+            </div>
+            <div class="add-item">
+                <p>{#} incomplete item</p>
+            </div>
+        </div>
+
+        <div class="input-data">
+            <div class="text-area">
+                <input 
+                    type="text"
+                    placeholder="enter new to-do"
+                    style="width: 350px;"
+                />
+            </div>
+            <button class="add-btn">+</button>
+        </div>
+
+        <div class="todos-container">
+            <div class="item">
+                <!-- <input 
+                type="text"
+                class="item-input"
+                disabled
+                /> -->
+                <p>Walk the dog</p>
+                <button class="edit-btn">edit</button>
+                <button class="remove-btn">-</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
